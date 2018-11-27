@@ -2,7 +2,7 @@ Bootstrap: docker
 From: quay.io/fenicsproject/stable:current
 
 %post
-	apt-get -y install python3-tk
+    apt-get -y install python3-tk
     ldconfig
 
 %files
